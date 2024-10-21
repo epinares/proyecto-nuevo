@@ -1,0 +1,35 @@
+
+/* src/app/perfil/perfil.page.scss */
+
+/* Estilo para el contenedor principal */
+.page-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-color: var(--ion-background-color);
+}
+
+/* Estilo para los títulos */
+.page-perfil ion-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--ion-text-color);
+  margin-bottom: 16px;
+}
+
+/* Estilo para los botones */
+.page-perfil ion-button {
+  margin-top: 16px;
+  --background: var(--ion-color-primary);
+  --color: var(--ion-color-light);
+}
+
+/* Estilo para los textos */
+.page-perfil p {
+  font-size: 16px;
+  color: var(--ion-text-color);
+  text-align: center;
+  margin-bottom: 16px;
+}
